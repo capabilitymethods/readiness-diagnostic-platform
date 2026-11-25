@@ -1,50 +1,105 @@
-# Tier 1 AI & Operations Readiness Diagnostic: Platform V1
+# Capability Methods LLC · Enterprise Cloud Diagnostic & Advisory Platform
 
-**Capability Methods LLC** · AI and operations advisory for growing businesses · Wesley Chapel, Florida
+**AI, Cloud & Operations Readiness Platform (Platform V1 & V2)**  
+Enterprise Advisory & Diagnostic Infrastructure · Capability Methods LLC · Wesley Chapel, Florida  
+🌐 **Live Platform:** [platform.capabilitymethods.com](https://platform.capabilitymethods.com) · 🏢 **Corporate Site:** [capabilitymethods.com](https://www.capabilitymethods.com)
 
-![Platform V1 front page](images/front-page.png)
+---
 
-## What it is
+## Executive Overview
 
-Platform V1 is the online version of our **Tier 1 AI & Operations Readiness Diagnostic**. We built it to make the diagnostic faster for the people who take part and clearer for the owners who receive the results. Built by Capability Methods; first release published 2026-10-25.
+The **Capability Methods Cloud Assessment & Advisory Platform** is an enterprise-grade diagnostic engine built to help business owners, transformation sponsors, and technology executives evaluate their operational maturity and AI readiness with mathematical rigor and publication-grade advisory deliverables.
 
-The diagnostic answers one question for an owner-managed business: *where do we really stand, and what should we fix first?* In 3 weeks it gives you:
+Unlike generic survey tools or ungrounded AI chat wrappers, the platform pairs **100% audit-proof, deterministic mathematical scoring** with an **opt-in enterprise AI co-pilot**, generating an end-to-end consulting engagement triumvirate in seconds:
 
-- A scored picture of your operations and AI readiness
-- 5 to 8 interviews with your team and a written Gap Analysis
-- An executive readout
-- A Now / Next / Later roadmap you can use with or without us
+1. **Boardroom Executive Presentation Deck (`.pptx`):** 21 widescreen slides, 2×2 SWOT matrix, category delta bars, masked stakeholder quote grid, 6 deep-dive gap themes, and structured presenter speaker notes on every slide.
+2. **Actionable SMART Remediation Matrix (`.xlsx`):** 15-column remediation backlog, auto-filtered, frozen headers, RACI matrix assignment, 90-day horizon phasing (Days 1–30, 31–60, 61–90), and a dedicated Field Guide.
+3. **Comprehensive Gap Analysis Findings Report (`.docx`):** 12-section, 63-heading publication-grade Word report incorporating Crawl–Fly, 6C Continuous Delivery, ITSM, and ISO/IEC 42001 & NIST AI RMF frameworks.
 
-## How it works
+---
+
+## Architectural Highlights
 
 ```mermaid
-flowchart LR
-    A[Invited participant] -->|personal invitation link| B[Online diagnostic survey]
-    B --> C[(Cloud database<br/>separate for each client organization)]
-    C --> D[Zero-LLM Scoring<br/>fixed rubric, no AI model]
-    D --> E[Gap Analysis and<br/>Now / Next / Later roadmap]
-    F[Authorized CMLLC staff] -->|sign in with Google| C
+flowchart TD
+    subgraph INTAKE["1. Multi-Tenant Assessment Intake"]
+        T1["Tier 1: AI & Operations Readiness Diagnostic<br/>(14-Day One-Time Token Links)"]
+        T3["Tier 3: Assessor-Led Operating Model<br/>(9 Dynamic Categories / 103 Rubric Practices)"]
+    end
+
+    subgraph ENGINE["2. Secure Cloud Run & Firestore Engine"]
+        SEC["Tenant-Isolated Firestore Security Rules<br/>(Strict Tenant Boundaries & Verified RBAC)"]
+        MATH["Deterministic Scoring Engine<br/>(100% Fixed Rubrics, Zero-LLM, Audit-Proof)"]
+    end
+
+    subgraph WORKBENCH["3. Consultant Advisory Workbench (Human-in-the-Loop)"]
+        MODE1["Mode 1: Deterministic Math Pre-Fill<br/>(Air-Gapped, Zero External Calls, $0 Cost)"]
+        MODE2["Mode 2: Opt-In AI Co-Pilot<br/>(Private Server-Side Gemini, Zero-PII Scrubbing)"]
+        REVIEW["Consultant Review, Editing & Promotion Gate<br/>(Sanitized Internal Notes & Final Sign-Off)"]
+    end
+
+    subgraph DELIVERABLES["4. Executive Boardroom Deliverables"]
+        PPTX["Executive Presentation Deck (.pptx)<br/>(21 Slides, SWOT, Category Bars, Notes)"]
+        XLSX["Actionable SMART Sheet (.xlsx)<br/>(15 Columns, RACI Matrix, Field Guide)"]
+        DOCX["Comprehensive Gap Report (.docx)<br/>(12 Sections, 63 Headings, McKinsey Palette)"]
+    end
+
+    INTAKE --> SEC
+    SEC --> MATH
+    MATH --> WORKBENCH
+    MODE1 --> REVIEW
+    MODE2 --> REVIEW
+    REVIEW --> DELIVERABLES
 ```
 
-- **Invitation only.** Invited participants take the diagnostic survey online through a personal invitation link.
-- **Zero-LLM Scoring:** scored by a fixed rubric, with no AI model involved.
-- **Staff access.** Authorized CMLLC staff sign in with Google.
-- **Your answers stay yours.** Answers are stored in a cloud database protected by access rules, kept separate for each client organization.
-- **Offline option on request:** assessments can be run in person on a CMLLC-managed laptop without an internet connection.
+---
 
-## Why we built it this way
+## Key Capabilities
 
-Many businesses are asked to put their data into AI tools before they know where they stand. We wanted the readiness diagnostic itself to be simple, private and explainable: the same answers always give the same score, and every score traces back to a written rubric.
+### 1. Dual-Tier Multi-Tenant Assessment
+* **Tier 1 (Self-Service or Assessor-Led):** Rapid 10-dimension diagnostic for business owners and leadership teams, distributed via secure, one-time 14-day `?token=` links that require zero client password friction.
+* **Tier 3 (Assessor-Led Deep Dive):** Comprehensive 9-category, 103-rubric item operating model assessment covering Product Centricity, Architecture, Lean Governance, Value Stream Flow, and AI Engineering Readiness.
 
-## Who is behind it
+### 2. Two-Mode Synthesis Engine (Consultant Co-Pilot)
+* **Mode 1: Deterministic Math (Air-Gapped / Zero-LLM) [Default]:** Synthesizes advisory themes, operational business impacts, recommended remediation actions, and 3-horizon roadmaps entirely through mathematical scoring algorithms and codified rubric gap definitions. Zero third-party data transmission, audit-proof, and $0 cost.
+* **Mode 2: Opt-In AI Co-Pilot (Human-in-the-Loop):** Private server-side Gemini 2.5 synthesis for clients seeking narrative enrichment. Inbound context is scrubbed of all personal names and email addresses, stakeholder quotes are strictly attributed as `"Anonymous Stakeholder"`, and confidential consultant notes are forced to empty string.
 
-Mark Katanani, Principal Consultant. 25+ years leading technology transformation in large enterprises, including Infosys, Wells Fargo, SAIC and Sun Microsystems. TOGAF/DFSS, Lean Six Sigma Master Black Belt, SAFe RTE, and U.S. patent holder (AI/ML defect prediction).
+### 3. McKinsey-Grade Visual Restraint & Brand Polish
+* **Universal Brand Mark:** Official transparent Capability Methods LLC logo embedded directly across web navigation, Word cover pages, and Excel worksheets.
+* **3-Color Executive Palette:** Restricted strictly to Deep Indigo (`#350F88`), Executive Charcoal (`#262626`), and Soft Lavender Tint (`#F3F0FA`).
+* **Practitioner Prose:** Zero emojis, zero em-dashes, and zero AI filler clichés. Every sentence is written for senior executive credibility.
 
-## Talk to us
+---
 
-The platform is invitation-only. To see whether the diagnostic fits your business, **[book a 20-minute call](https://calendly.com/capabilitymethods)**.
+## Security & Privacy Guardrails
 
-- Website: [capabilitymethods.com](https://www.capabilitymethods.com) · Services: [services.capabilitymethods.com](https://services.capabilitymethods.com)
-- Email: info@capabilitymethods.com · Phone: (813) 816-0186
+* **Tenant Data Isolation:** Multi-tenant Firestore security rules fail closed; client organizations and survey responses are completely segregated cryptographically and logically.
+* **Zero Client PII to LLMs:** Under no circumstance is raw client respondent data, personal names, or email addresses passed to external language models.
+* **Consultant Sovereignty:** Machine-generated output is strictly treated as an initial draft. Client release is gated by mandatory Principal Consultant review and explicit "Promote to Final" authorization.
 
-<sub>This repository is a showcase only. It contains no platform source code and no client data. © 2026 Capability Methods LLC.</sub>
+---
+
+## Leadership & Methodology
+
+**Mark Katanani**  
+*Principal Consultant & Founder · Capability Methods LLC*
+
+25+ years leading enterprise technology transformation, operational excellence, and mission-critical cloud delivery across global institutions including Infosys, Wells Fargo, SAIC, and Sun Microsystems.
+
+* **Credentials:** TOGAF Enterprise Architect, Design for Six Sigma (DFSS), Lean Six Sigma Master Black Belt (LSS MBB), SAFe Release Train Engineer (RTE).
+* **Innovation:** U.S. Patent Holder in AI/ML-driven software defect prediction and quality telemetry.
+
+---
+
+## Engagement & Booking
+
+Platform access is invitation-only for enterprise client engagements and partner assessments.
+
+* 🌐 **Live Platform Sign-In:** [platform.capabilitymethods.com](https://platform.capabilitymethods.com)
+* 📅 **Executive Briefing:** [Book a 20-minute consultation on Calendly](https://calendly.com/capabilitymethods)
+* ✉️ **Inquiries:** info@capabilitymethods.com · 📞 **Direct:** (813) 816-0186
+* 🏢 **Corporate Services:** [services.capabilitymethods.com](https://services.capabilitymethods.com)
+
+---
+
+<sub>© 2026 Capability Methods LLC. All rights reserved. This repository serves as an architectural showcase and public overview; it contains zero confidential client data and zero proprietary platform source code.</sub>
